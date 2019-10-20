@@ -7,6 +7,6 @@ public class CelsiusToFahrenheit {
         Scanner s1= new Scanner(System.in);
         System.out.print("Enter the temperature in degree celsius: ");
         int c= s1.nextInt();
-        System.out.println("Temperature in degree fahrenheit= " + (float)(c*1.8));
+        System.out.println("Temperature in degree fahrenheit= " + (float)(c*1.8+32));
     }
 }
